@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Tyren's Profile</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet"></head>
+  <body>
+
+    <nav class="main-nav">
+        <ul class="nav">
+          <li class="name">Tyren Paintin</li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+      <img src="../images/profile.jpg" alt="An Accurate Drawing of Tyren" class="profile-image">
+      <h1 class="tag name">Hello, I’m Tyren.</h1>
+      <p class="tag location">My home is Witney, Oxfordshire.</p>
+    </header>
+
+    <main class="flex">
+    	<!-- This form was taken from: https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form  -->
+    	<section>
+    		<h2>Contact</h2>
+			<form class="card" action="/my-handling-form-page" method="post">
+	  		<div>
+	   			 <label for="name">Name:</label>
+	   			 <input type="text" id="name" name="user_name">
+	  		</div>
+	  		<div>
+	    		 <label for="mail">Email:</label>
+	   			 <input type="email" id="mail" name="user_mail">
+	 		 </div>
+	 		 <div>
+	  		 	 <label for="msg">Message:</label>
+	   			 <textarea id="msg" name="user_message" placeholder="Please be aware, this form is not active."></textarea>
+	 		 </div>
+	 		 <div class="button">
+	  			<button type="submit">Send your message</button>
+			</div>
+			</form>
+		</section>
+    </main>
+    <footer>
+      <a href="https://github.com/TPaintin" target="_blank" class="social github">Github</a>
+      <p class="copyright">Copyright 2019, Tyren Paintin</p>
+    </footer>
+  </body>
+</html>
